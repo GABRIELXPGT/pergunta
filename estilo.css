@@ -39,7 +39,7 @@ top: -10px;
         background: white;
         border-radius: 10px;
         padding: 15px;
-        width: 300px;
+        width: 350px;
         height: 50;
         margin: auto;
         box-shadow: 3px 3px 10px rgb(0, 0, 0);
@@ -48,7 +48,7 @@ top: -10px;
     
     }
     body{
-        font:normal 10pt Union;
+        font:normal 15pt Union;
     }
 }
     
