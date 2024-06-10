@@ -3,7 +3,7 @@ function verificar() {
     var ano = data.getFullYear()
     var fano = window.document.getElementById('txtano') // elementos localizados do html
     var res = document.querySelector('div#res') // elementos localizados do html
-    if (fano.value.length == 0 || fano.value > ano) {  // esse teste verifica se a caixa de texto esta vazia ou se o ano é maior que o ano atual
+    if (fano.value.length == 0 || fano.value >= ano) {  // esse teste verifica se a caixa de texto esta vazia ou se o ano é maior que o ano atual
         window.alert(`[ERRO] Verifique os dados e tente novamente!! `) // se o teste for execultado aparecerá esse mensagem de erro .
     } else {
         var fsex = window.document.getElementsByName('radsex') // é importante ressaltar que eu não especifiquei qual elemento eu quero localizar, há 2 name com o mesmo nome que é 'radsex' 
