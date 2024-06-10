@@ -34,4 +34,23 @@ footer {
     position: relative;
 top: -10px;
 }
+@media screen and (max-width:500px){
+    section {
+        background: white;
+        border-radius: 10px;
+        padding: 15px;
+        width: 380px;
+        height: 50;
+        margin: auto;
+        box-shadow: 3px 3px 10px rgb(0, 0, 0);
+        text-align: center;
+    
+    
+    }
+    body{
+        font:normal 18pt Union;
+    }
+}
+    
+
 
