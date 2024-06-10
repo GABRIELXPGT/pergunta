@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MODELO</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header>
+      <h1>VERIFICADOR DE IDADE</h1>
+    </header>
+    <section>
+      <div>
+        <p>
+          ANO DE NASCIMENTO :
+          <input type="text" id="txtano" min="0" name="txtano" />
+        </p>
+        <p>
+          SEXO:
+          <input type="radio" name="radsex" id="mas" checked />
+          <label for="mas">MASCULINO</label>
+          <input type="radio" name="radsex" id="fem" />
+          <label for="fem">FEMININO</label>
+        </p>
+        <p>
+          <input type="button" value="Verificar" onclick="verificar()" class="ver" />
+        </p>
+      </div>
+      <div id="foto"><img id="img"></div><!-- esse foi o jeito de centralizar a imagem, pois quando eu estava colocando a imagem na div de baixo ela via a img como um acrecento e juntava tudo, não centralizando a imagem -->
+      <div id="res"> PREENCHA OS DADOS PARA VER O RESLTADO</div> 
+    </section>
+    <footer>
+      <p>&copy; CursoEmVideo</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
