@@ -1,6 +1,8 @@
 body {
     background: rgb(224, 107, 11);
-    font: normal 20pt Union
+    font: normal 20pt Union;
+    text-align: center;
+    
 }
 
 header {
